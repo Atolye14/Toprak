@@ -1,7 +1,6 @@
 <?php
 function pagination($pages = '', $range = 4)
 {
-echo "<div class='container'>";
 $showitems = ($range * 2)+1; 
 global $paged;
 if(empty($paged)) $paged = 1;
@@ -30,6 +29,5 @@ echo "</ul></div>";
 //if ($paged < $pages && $showitems < $pages) echo "<div class='col-xs-6 col-md-4 sol'><a href='".get_pagenum_link($paged + 1)."'><span class='icon-book'>></span> <div class='text'>sonraki sayfa</div></a></div>";
 echo "</div>\n";
 }
-echo "</div>";
 }
 ?>
