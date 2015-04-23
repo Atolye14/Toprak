@@ -1,0 +1,139 @@
+/*
+Theme Name: Toprak
+Theme URI: http://www.colorsofotherlands.com/
+Author: Atolye14
+Author URI: http://www.atolye14.com
+Description: A theme for Colors of Other Lands
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: gallery
+Text Domain: Toprak
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800);
+
+body{background-color:#7fc2d6;font-family:'Dosis';font-weight:normal;}
+body.koyu{background-color:#689fb0;}
+img{max-width:100%}
+ul{padding-left:0px;list-style-type:none;}
+a:hover,a:focus,a:active{text-decoration:none;}
+.icon-book{font-weight:300;font-size: 80px;line-height:1px;top:15px;height: 30px;}
+.hrgonder{background:url("images/hrgonder.png") center no-repeat;height:38px;margin-top:30px;}
+
+header{background-color:#fff;}
+header .logo{margin-top:40px;display:block;}
+header .headerorta{margin-top:20px;display:block;}
+header .sosyalmedia{margin-top:10px;}
+header .sosyalmedia a,header .sosyalmedia input{float:right;}
+header .sosyalmedia a.twitter{background:url(images/icon-twitter.png);display: block;width:26px;height:26px;background-size:26px;margin-left:3px;}
+header .sosyalmedia a.facebook{background:url(images/icon-facebook.png);display:inline-block;width:26px;height:26px;background-size:26px;margin-left:3px;}
+header .sosyalmedia input[type=text]{height:26px;border:1px solid #bee0eb;border-radius:14px;background:transparent;padding-left:10px;z-index:5;color:#7dc1d7;}
+header .sosyalmedia input[type=text]:focus{outline:0px none;border:1px solid #7dc1d7;}
+header .sosyalmedia input[type=submit]{background:url(images/icon-search.png);display:inline-block;width:27px;height:26px;background-size:27px;border:0px;margin-left:-27px;z-index:10;position:relative; text-indent:-200px;}
+header nav{margin-top:20px;}
+header nav ul{display: inline-block;float: right;}
+header nav ul li{display:inline-block;margin-left:30px;}
+header nav ul li:first-child{margin-left:0px;}
+header nav ul li a{display:block;color:#7fc2d6;font-size:16px;border-bottom:2px solid #fff;}
+header nav ul li a:hover,header nav ul li a:active,header nav ul li a:focus,header nav ul li a.active{border-bottom:2px solid #7fc2d6;color:#7fc2d6;}
+header nav ul li a small{display:block;text-align:right;color:#a5d2e1;font-size:13px;}
+header .serit{height:13px;background:url(images/headerserit.png)}
+header .serit.fixed{position:fixed;top:0px;z-index:9999;width: 100%;margin-top: 0px;}
+
+footer{background-color:#3596b4;margin-top:30px;text-align:center;}
+footer .headerserit{line-height:0px;}
+footer figure figcaption{color:#fff;margin-top:10px;margin-bottom:10px;}
+footer figure figcaption small{display:block;}
+footer p{color:#fff;margin-top:30px;font-size:16px;}
+footer .powered{margin-top:30px;}
+footer .powered figcaption{margin-top:30px;}
+footer .serit{height:13px;background:url(images/headerserit.png)}
+
+section{margin-top:30px;}
+
+section.anasayfa figure{margin-bottom:30px;}
+section.anasayfa figure figcaption{width:80%;margin:auto;color:#fff;left: 10%;background-color:#7fc2d6;position: absolute;padding-left:10px;padding-bottom:5px;display:none;top:40%;
+transition: top .5s; -moz-transition: top .5s; -webkit-transition: top .5s; -ms-transition: top .5s; -o-transition: top .5s; }
+
+section.anasayfa figure:hover  figcaption{top:40%}
+section.anasayfa figure figcaption h1{font-size:14px;margin-top:10px;margin-bottom:0px;}
+section.anasayfa figure figcaption hr{border-top:1px solid #fff;margin-top:5px;margin-bottom:0px;margin-left:0px;margin-right:-5px;}
+section.anasayfa figure figcaption figure{margin-top:10px;margin-bottom:0px;margin-left:-15px;}
+section.anasayfa hr{margin-left:-15px;margin-right:-15px;border-top:2px solid #fff}
+
+.ilerigeri a{color:white;font-size:24px;font-weight:200;}
+.ilerigeri .sol .icon-book{float:left;}
+.ilerigeri .sol .text{text-align:left;font-size:16px;font-weight:bolder;margin-top:-8px;padding-left:40px}
+.ilerigeri .sol .text small{display:block;font-size:70%;font-weight:200;}
+.ilerigeri .orta{text-align:center;}
+.ilerigeri .orta ul li{display:inline-block;margin-right:12px;}
+.ilerigeri .orta ul li a.active{font-weight:bolder;}
+.ilerigeri .sag .icon-book{float:right;}
+.ilerigeri .sag .text{text-align:right;padding-right:40px;font-size:16px;font-weight:bolder;margin-top:-8px;}
+.ilerigeri .sag .text small{display:block;font-size:70%;font-weight:200;}
+.ilerigeri .text{margin-top:0px;} 
+
+figure.img img{width:100%;}
+
+section.kartsayfasi{text-align:center;}
+section.kartsayfasi h1{color:#fff;margin-top:0px;margin-bottom:0px;}
+section.kartsayfasi hr{margin-top:10px;border-top:2px solid #fff}
+section.kartsayfasi figure{margin-bottom:30px;}
+section.kartsayfasi p{font-size:20px;color:#fff;}
+section.kartsayfasi h2{font-size:24px;color:#9ad3e5;font-weight:bolder;}
+section.kartsayfasi hr.koyu{border-top:2px solid #9ad3e5;margin-bottom:25px;}
+section.kartsayfasi hr.koyu:last-child{margin-top:0px;}
+section.kartsayfasi .medya{position:fixed;margin-top: 50px;margin-left: 950px;z-index:99999}
+section.kartsayfasi .medya a{color:#d9e7eb}
+section.kartsayfasi .medya figure figcaption{font-size:14px;font-weight:bolder;}
+section.kartsayfasi .medya .basadon{display:none;}
+
+section.neyapmaliyim{margin-bottom:50px;margin-top:50px;}
+section.neyapmaliyim .paddingli{padding-left:50px;padding-right:50px;}
+section.neyapmaliyim figure{text-align:center;}
+section.neyapmaliyim figure figcaption{color:#fff;margin-top:10px;margin-bottom:10px;font-size:18px;margin-bottom:20px;}
+section.neyapmaliyim figure figcaption small{display:block;color:#afd6e4;font-size:16px;}
+section.neyapmaliyim figure figcaption.koyu{color:#1f5c6c}
+section.neyapmaliyim hr{border-top:2px solid #fff;}
+section.neyapmaliyim hr.ust{margin-top:-0px;}
+section.neyapmaliyim p{color:#fff;font-size:18px;}
+
+@media (min-width: 1200px) {
+section.kartsayfasi .kart{padding-left:120px;padding-right:120px;}
+}
+@media (min-width: 992px) and (max-width: 1199px) { 
+section.kartsayfasi .medya{position:static;margin:0px;}
+section.kartsayfasi .medya a{display:inline-block;margin-left:10px;margin-right:10px;}
+section.kartsayfasi .medya a.basadon{display:none;}
+}
+@media (min-width: 768px) and (max-width: 991px){ 
+section.kartsayfasi .medya{position:static;margin:0px;}
+section.kartsayfasi .medya a{display:inline-block;margin-left:10px;margin-right:10px;}
+header{text-align:center;}
+    header nav ul {float:none;}
+header .sosyalmedia{display:inline-block;}
+section .ilerigeri .sol a{font-size:10px;}
+section.kartsayfasi .ilerigeri .text{display:none;}
+section.kartsayfasi .ilerigeri .text{display:none;}
+section.kartsayfasi .medya a.basadon{display:none;}
+}
+@media (max-width: 767px) {
+  section.kartsayfasi .medya{position:static;margin:0px;}
+section.kartsayfasi .medya a{display:inline-block;margin-left:10px;margin-right:10px;}
+section.kartsayfasi .medya a.basadon{display:none;}
+    header{text-align:center;}
+    header nav ul {float:none;}
+header .sosyalmedia{display:inline-block;}
+section .ilerigeri .sol a{font-size:16px;}
+.icon-book{font-size:60px;top:12px}
+section .ilerigeri .sag a{font-size:16px;}
+section.anasayfa .ilerigeri .text{margin-top:-3px;} 
+section.kartsayfasi .ilerigeri .text{display:none;}
+section.kartsayfasi .ilerigeri .text{display:none;}
+}
+
+
